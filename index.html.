@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto con Gráficos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .grafico {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Visualización de Gráficos</h1>
+
+    <div class="grafico">
+        <h2>Gráfico 1: Título del Gráfico</h2>
+        <img src="primer-grafico.png" alt="Gráfico 1">
+        <p>Descripción del gráfico 1.</p>
+    </div>
+
+    <div class="grafico">
+        <h2>Gráfico 2: Título del Gráfico</h2>
+        <img src="segundo-grafico.png" alt="Gráfico 2">
+        <p>Descripción del gráfico 2.</p>
+    </div>
+
+    <div class="grafico">
+        <h2>Gráfico 3: Título del Gráfico</h2>
+        <img src="tercer-grafico.png" alt="Gráfico 3">
+        <p>Descripción del gráfico 3.</p>
+    </div>
+
+</body>
+</html>
 
